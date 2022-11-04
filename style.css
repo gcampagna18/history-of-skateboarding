@@ -8,19 +8,21 @@ body {
     margin: 0;
 }
 
+:root {
+    --primary-color: #F5F5F5;
+    --secondary-color: #212121;
+    --accent-1: #EF3E36;
+    --accent-2: #17BEBB;
+}
+
 h1, h2, h3 {
     font-family: 'Oswald', sans-serif;
+    color: var(--secondary-color);
 }
 
 p {
     font-family: 'Oxygen', sans-serif;
-}
-
-:root {
-    --primary-color: #F5F5F5;
-    --secondary-color: ##212121;
-    --accent-1: #EF3E36;
-    --accent-2: #17BEBB;
+    color: var(--secondary-color);
 }
 
 
@@ -83,8 +85,10 @@ p {
 .about-desc h2 {
     margin-top: 62px;
     margin-left: 95px;
+    color: var(--primary-color);
 }
 .about-desc p {
     margin-left: 95px;
     width: 422px;
+    color: var(--primary-color);
 }
