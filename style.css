@@ -8,6 +8,14 @@ body {
     margin: 0;
 }
 
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;
+}
+
 :root {
     --primary-color: #F5F5F5;
     --secondary-color: ##212121;
@@ -15,14 +23,8 @@ body {
     --accent-2: #17BEBB;
 }
 
-/*h1 {
-    font-family: 'Oswald', sans-serif;
-}
 
-p {
-    font-family: 'Oxygen', sans-serif;
-} */
-
+/*Hero*/
 .hero {
     height: 645px;
     background-image: url(images/hero-img.jpg);
@@ -38,7 +40,7 @@ p {
     width: 75px;
     height: 75px;
     position: fixed;
-    right: 80px;
+    right: 60px;
     top: 50px;
     border-radius: 50%;
     display: flex;
@@ -51,7 +53,38 @@ p {
     
 }
 
+/*About*/
 .about {
     height: 895px;
     background-color: var(--primary-color);
+}
+
+.about-cards {
+    width: 1325px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.about-cards img{
+    position: absolute;
+    margin-top: -62px;
+}
+
+.about-desc {
+    background-color: var(--accent-1);
+    color: var(--primary-color);
+    width: 635px;
+    height: 465px;
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 690px;    
+}
+
+.about-desc h2 {
+    margin-top: 62px;
+    margin-left: 95px;
+}
+.about-desc p {
+    margin-left: 95px;
+    width: 422px;
 }
