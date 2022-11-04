@@ -1,3 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Oxygen&display=swap');
+
 .container {
-    width: 1440px;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+:root {
+    --primary-color: #F5F5F5;
+    --secondary-color: ##212121;
+    --accent-1: #EF3E36;
+    --accent-2: #17BEBB;
+}
+
+/*h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;
+} */
+
+.hero {
+    height: 645px;
+    background-image: url(images/hero-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    display: flex;
+}
+
+.hamburger-menu {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 75px;
+    height: 75px;
+    position: fixed;
+    right: 80px;
+    top: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburger-menu img {
+    width: 40px;
+    
+}
+
+.about {
+    height: 895px;
+    background-color: var(--primary-color);
 }
