@@ -132,29 +132,6 @@ p {
     margin-left: 80px;
 }
 
-.types-title1 {
-    position: absolute;
-    bottom: -57px;
-    left: 187;
-    color: var(--primary-color);
-    z-index: 1;
-}
-
-.types-desc {
-    background-color: var(--secondary-color);
-    height: 395px;
-    position: relative;
-}
-
-.types-desc p {
-    color: var(--primary-color);
-    width: 640px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 102px;
-}
-
 .type-vert {
     margin-top: 0;
     background-image: url(images/vert-skating.jpg);
@@ -168,26 +145,6 @@ p {
 .type-vert h2 {
     font-size: 102px;
     margin-left: 80px;
-}
-.types-title2 {
-    position: absolute;
-    bottom: -57px;
-    right: 187px;
-    color: var(--secondary-color);
-    z-index: 1;
-}
-.types-desc2 {
-    background-color: var(--primary-color);
-    height: 395px;
-    position: relative;
-}
-.types-desc2 p {
-    color: var(--secondary-color);
-    width: 640px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 102px;
 }
 
 .type-park {
@@ -234,4 +191,48 @@ p {
 .type-downhill h2 {
     font-size: 102px;
     margin-left: 80px;
+}
+
+.types-title1 {
+    position: absolute;
+    bottom: -57px;
+    left: 187;
+    color: var(--primary-color);
+    z-index: 1;
+}
+
+.types-desc {
+    background-color: var(--secondary-color);
+    height: 395px;
+    position: relative;
+}
+
+.types-desc p {
+    color: var(--primary-color);
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 102px;
+}
+
+.types-title2 {
+    position: absolute;
+    bottom: -57px;
+    right: 187px;
+    color: var(--secondary-color);
+    z-index: 1;
+}
+.types-desc2 {
+    background-color: var(--primary-color);
+    height: 395px;
+    position: relative;
+}
+.types-desc2 p {
+    color: var(--secondary-color);
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 102px;
 }
