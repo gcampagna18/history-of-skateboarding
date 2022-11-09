@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Oxygen&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
 .container {
     width: 100%;
 }
@@ -48,6 +52,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1000;
 }
 
 .hamburger-menu img {
@@ -59,6 +64,7 @@ p {
 .about {
     height: 895px;
     background-color: var(--primary-color);
+    margin-bottom: 0;
 }
 
 .about-cards {
@@ -91,4 +97,56 @@ p {
     margin-left: 95px;
     width: 422px;
     color: var(--primary-color);
+}
+
+/*Types section*/
+
+/* h1 {
+    font-size: 118px;
+    text-align: right;
+    margin-right: 80px;
+    margin-top: -143px;
+    margin-bottom: 0;
+} */
+
+.types-skateboarding {
+    position: absolute;
+    top: -142px;
+    right: 35px;
+    font-size: 118px;
+}
+
+.types-title1 {
+    position: absolute;
+    bottom: -50px;
+    left: 35px;
+    color: var(--primary-color);
+    z-index: 1;
+}
+.type-img {
+    margin-top: 0;
+    background-image: url(images/street-skating.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.type-img h2 {
+    font-size: 102px;
+    margin-left: 80px;
+}
+
+.types-desc {
+    background-color: var(--secondary-color);
+    height: 395px;
+    position: relative;
+    justify-content: center;
+}
+
+.types-desc p {
+    color: var(--primary-color)
+
 }
