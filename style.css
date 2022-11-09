@@ -118,7 +118,7 @@ p {
 
 .type-street {
     margin-top: 0;
-    background-image: url(images/street1.jpg);
+    background-image: url(images/street-skatingxx.jpg);
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,7 +134,7 @@ p {
 
 .type-vert {
     margin-top: 0;
-    background-image: url(images/vert-skating.jpg);
+    background-image: url(images/vert-skatingx.jpg);
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,7 +149,7 @@ p {
 
 .type-park {
     margin-top: 0;
-    background-image: url(images/park-skating.jpg);
+    background-image: url(images/park-skatingxx.jpg);
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
@@ -164,7 +164,7 @@ p {
 
 .type-cruise {
     margin-top: 0;
-    background-image: url(images/cruising.jpg);
+    background-image: url(images/cruise-skatingx.jpg);
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
@@ -180,7 +180,7 @@ p {
 
 .type-downhill {
     margin-top: 0;
-    background-image: url(images/downhill.jpg);
+    background-image: url(images/downhillx.jpg);
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
@@ -201,6 +201,7 @@ p {
     z-index: 1;
 }
 
+/*description types*/
 .types-desc {
     background-color: var(--secondary-color);
     height: 395px;
