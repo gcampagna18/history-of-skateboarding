@@ -116,6 +116,21 @@ p {
     font-size: 118px;
 }
 
+.type-freestyle {
+    margin-top: 0;
+    background-image: url(images/vert-skatingx.jpg);
+    height: 550px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.type-freestyle h2 {
+    font-size: 102px;
+    margin-left: 80px;
+}
+
 .type-street {
     margin-top: 0;
     background-image: url(images/street-skatingxx.jpg);
