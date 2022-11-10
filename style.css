@@ -57,7 +57,12 @@ p {
 
 .hamburger-menu img {
     width: 40px;
-    
+}
+
+.hamburger-menu:hover {
+    width: 77px;
+    height: 77px;
+
 }
 
 /*About*/
@@ -95,7 +100,7 @@ p {
 }
 .about-desc p {
     margin-left: 95px;
-    width: 422px;
+    width: 425px;
     color: var(--primary-color);
 }
 
@@ -112,13 +117,13 @@ p {
 .types-skateboarding {
     position: absolute;
     top: -142px;
-    right: 35px;
+    left: 80px;
     font-size: 118px;
 }
 
 .type-freestyle {
     margin-top: 0;
-    background-image: url(images/vert-skatingx.jpg);
+    background-image: url(images/freestyle-skating.jpg);
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
@@ -211,7 +216,7 @@ p {
 .types-title1 {
     position: absolute;
     bottom: -57px;
-    left: 187;
+    left: 70px;
     color: var(--primary-color);
     z-index: 1;
 }
@@ -235,7 +240,7 @@ p {
 .types-title2 {
     position: absolute;
     bottom: -57px;
-    right: 187px;
+    right: 185px;
     color: var(--secondary-color);
     z-index: 1;
 }
@@ -252,3 +257,5 @@ p {
     margin: 0 auto;
     padding-top: 102px;
 }
+
+/*Key Figures Sect.*/
