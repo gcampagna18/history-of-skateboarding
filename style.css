@@ -27,6 +27,7 @@ h1, h2, h3 {
 p {
     font-family: 'Oxygen', sans-serif;
     color: var(--secondary-color);
+    line-height: 1.5em;
 }
 
 
@@ -40,7 +41,6 @@ p {
     /*background-attachment: fixed;*/
     display: flex;
 }
-
 .hamburger-menu {
     background-color: rgba(0, 0, 0, 0.75);
     width: 75px;
@@ -54,16 +54,15 @@ p {
     align-items: center;
     z-index: 1000;
 }
-
 .hamburger-menu img {
     width: 40px;
 }
-
 .hamburger-menu:hover {
     width: 77px;
     height: 77px;
 
 }
+
 
 /*About*/
 .about {
@@ -86,39 +85,29 @@ p {
 .about-desc {
     background-color: var(--accent-1);
     color: var(--primary-color);
-    width: 635px;
-    height: 465px;
     position: absolute;
     margin-top: 265px;
-    margin-left: 690px;    
+    margin-left: 690px;   
+    padding: 3em; 
+    width: 500px;
 }
 
-.about-desc h2 {
-    margin-top: 62px;
-    margin-left: 95px;
+.about-desc h2 {  
     color: var(--primary-color);
+    margin-bottom: 1em;
 }
 .about-desc p {
-    margin-left: 95px;
-    width: 425px;
     color: var(--primary-color);
 }
 
+
 /*Types section*/
-
-/* h1 {
-    font-size: 118px;
-    text-align: right;
-    margin-right: 80px;
-    margin-top: -143px;
-    margin-bottom: 0;
-} */
-
 .types-skateboarding {
     position: absolute;
     top: -142px;
     left: 80px;
     font-size: 118px;
+    color: var(--secondary-color);
 }
 
 .type-freestyle {
@@ -184,7 +173,7 @@ p {
 
 .type-cruise {
     margin-top: 0;
-    background-image: url(images/cruise-skatingx.jpg);
+    background-image: url(images/cruise-skatingxx.jpg);
     height: 550px;
     background-position: center;
     background-repeat: no-repeat;
@@ -196,7 +185,6 @@ p {
     font-size: 102px;
     margin-left: 80px;
 }
-
 
 .type-downhill {
     margin-top: 0;
@@ -221,7 +209,8 @@ p {
     z-index: 1;
 }
 
-/*description types*/
+
+/*Description types*/
 .types-desc {
     background-color: var(--secondary-color);
     height: 395px;
@@ -258,4 +247,38 @@ p {
     padding-top: 102px;
 }
 
+
 /*Key Figures Sect.*/
+.key-figures {
+    background-color: var(--accent-1);
+    height: 707px;
+    position: relative;
+}
+.figures-heading {
+    position: absolute;
+    top: -71px;
+    right: 80px;
+    font-size: 118px;
+    color: var(--primary-color);
+}
+.profile-card {
+    display: flex;
+    background-color: var(--accent-2);
+    width: 745px;
+    border-radius: 26px;
+}
+.profile-card img {
+    border-radius: 26px 0 0 26px;
+}
+.profile-text {
+    width: 365px;
+    padding-left: 25px;
+    padding-top: 52px;
+}
+.profile-text h3 {
+    color: var(--primary-color);
+    margin-bottom: 1em;
+}
+.profile-text p {
+    color: var(--primary-color);
+}
