@@ -269,8 +269,9 @@ p {
 .profile-card {
     display: flex;
     background-color: var(--accent-2);
-    width: 745px;
+    width: 725px;
     border-radius: 26px;
+    margin-right: 10px;
 }
 .profile-card img {
     border-radius: 26px 0 0 26px;
@@ -288,10 +289,16 @@ p {
     color: var(--primary-color);
 }
 
-/* button position outside */
-.flickity-prev-next-button.previous {
-    left: -40px;
-  }
-  .flickity-prev-next-button.next {
-    right: -40px;
+
+/* white circles */
+.flickity-page-dots .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid #F5F5F5;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+    background: #f5f5f5;
 }
