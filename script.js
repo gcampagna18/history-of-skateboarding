@@ -3,9 +3,10 @@ var flkty = new Flickity( elem, {
   // options
   cellAlign: 'left',
   contain: true,
-  wrapAround: true
-
-
+  //freeScroll: true,
+  wrapAround: true,
+  autoPlay: true,
+  pauseAutoPlayOnHover: true,
 });
 
 // element argument can be a selector string
