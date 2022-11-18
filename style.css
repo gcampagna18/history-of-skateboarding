@@ -40,6 +40,34 @@ p {
     background-size: cover;
     /*background-attachment: fixed;*/
     display: flex;
+    display: relative;
+}
+.title1 {
+    background-color: rgba(245, 245, 245, .7);
+    width: 448px;
+    height: 100px;
+    position: absolute;
+    top: 65px;
+}
+.title1 h1 {
+    font-size: 64px;
+    padding-left: 80px;
+    color: var(--secondary-color);
+}
+.title2 {
+    background-color: rgba(245, 245, 245, .7);
+    width: 748px;;
+    height: 165px;
+    position: absolute;
+    top: 372px;
+    right:0; 
+}
+.title2 h1 {
+    font-size: 118px;
+    margin: 0;
+    padding-left: 57px;
+    padding-bottom: 50px;
+    color: var(--secondary-color);
 }
 .hamburger-menu {
     background-color: rgba(0, 0, 0, 0.75);
@@ -79,7 +107,7 @@ p {
 
 .about-cards img{
     position: absolute;
-    margin-top: -62px;
+    margin-top: -50px;
 }
 
 .about-desc {
@@ -121,7 +149,7 @@ p {
     position: relative;
 }
 .type-freestyle h2 {
-    font-size: 102px;
+    font-size: 110px;
     margin-left: 80px;
 }
 
@@ -137,7 +165,7 @@ p {
 }
 
 .type-street h2 {
-    font-size: 102px;
+    font-size: 110px;
     margin-left: 80px;
 }
 
@@ -152,7 +180,7 @@ p {
     position: relative;
 }
 .type-vert h2 {
-    font-size: 102px;
+    font-size: 110px;
     margin-left: 80px;
 }
 
@@ -167,7 +195,7 @@ p {
     position: relative;
 }
 .type-park h2 {
-    font-size: 102px;
+    font-size: 110px;
     margin-left: 80px;
 }
 
@@ -182,7 +210,7 @@ p {
     position: relative;
 }
 .type-cruise h2 {
-    font-size: 102px;
+    font-size: 110px;
     margin-left: 80px;
 }
 
@@ -197,7 +225,7 @@ p {
     position: relative;
 }
 .type-downhill h2 {
-    font-size: 102px;
+    font-size: 110px;
     margin-left: 80px;
 }
 
@@ -264,10 +292,11 @@ p {
     border-radius: 1px;
 }
 
+
 /*Key Figures Sect.*/
 .key-figures {
     background-color: var(--accent-1);
-    height: 707px;
+    height: 760px;
     position: relative;
 }
 .figures-heading {
@@ -280,14 +309,14 @@ p {
 }
 .main-carousel {
    position: absolute;
-   top: 150px;
+   top: 120px;
 }
 .profile-card {
     display: flex;
     background-color: var(--accent-2);
     width: 725px;
     border-radius: 26px;
-    margin-right: 10px;
+    margin: 20px;
 }
 .profile-card img {
     border-radius: 26px 0 0 26px;
@@ -305,7 +334,70 @@ p {
     color: var(--primary-color);
 }    
 
+/*Popular Companies*/
+.companies {
+    height: 700px;
+    background-color: var(--primary-color);
+    position: relative;
+}
+.companies-heading {
+    position: absolute;
+   /* z-index: 1000;*/
+    top: -143px;
+    left: 80px;
+    font-size: 118px;
+    color: var(--secondary-color);
+}
 
+.comapany-logos {
+    margin: 0 auto;
+    padding: 78px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 65px;
+    /* position: absolute;
+    top: 78px; */
+}
 
+.overlay-container {
+    position: relative;
+    overflow: hidden;
+    height: 215px;
+}
 
+.company-name {
+    color: var(--primary-color);
+    position: absolute;
+    top: 45%;
+    font-size: 30px;
+    transition: translate (-50%, -50%);
+  
+}
 
+.company-name a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family: Oswald, sans-serif;   
+}
+
+.overlay {
+    position: absolute;
+    transition: all .3s ease;
+    opacity: 0;
+    background: rgba(33,33,33,.4);
+}
+
+.overlay-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-fade {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
