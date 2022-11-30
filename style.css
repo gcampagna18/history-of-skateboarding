@@ -57,7 +57,6 @@ p {
 .title2 {
     background-color: rgba(245, 245, 245, .7);
     width: 748px;;
-    height: 165px;
     position: absolute;
     top: 372px;
     right:0; 
@@ -66,7 +65,7 @@ p {
     font-size: 118px;
     margin: 0;
     padding-left: 57px;
-    padding-bottom: 50px;
+    padding-bottom: 15px;
     color: var(--secondary-color);
 }
 .hamburger-menu {
@@ -82,12 +81,13 @@ p {
     align-items: center;
     z-index: 1000;
 }
-.hamburger-menu img {
+.hamburger-menu i {
     width: 40px;
+    color: var(--primary-color);
+    font-size: 2.5em;
 }
-.hamburger-menu:hover {
-    width: 77px;
-    height: 77px;
+.hamburger-menu i:hover {
+    font-size: 3em;
 
 }
 
@@ -241,7 +241,6 @@ p {
 /*Description types*/
 .types-desc {
     background-color: var(--secondary-color);
-    height: 395px;
     position: relative;
 }
 
@@ -251,7 +250,7 @@ p {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding-top: 102px;
+    padding: 102px;
 }
 
 .types-title2 {
@@ -263,7 +262,6 @@ p {
 }
 .types-desc2 {
     background-color: var(--primary-color);
-    height: 395px;
     position: relative;
 }
 .types-desc2 p {
@@ -272,7 +270,7 @@ p {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding-top: 102px;
+    padding: 102px;
 }
 .profile-button {
     background-color: var(--accent-1);
@@ -336,7 +334,6 @@ p {
 
 /*Popular Companies*/
 .companies {
-    height: 700px;
     background-color: var(--primary-color);
     position: relative;
 }
@@ -400,4 +397,54 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/*Footer*/
+footer {
+    background-color: var(--accent-2);
+}
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.footer-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 50px 15px;
+}
+.footer-nav a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: var(--primary-color);
+    font-size: 20px;
+}
+.footer-nav a:hover {
+    color: var(--secondary-color);
+}
+.socials {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.socials i {
+    padding: 0 25px;
+}
+.socials i {
+    font-size: 2.3em;
+    color: var(--primary-color);
+}
+.socials i:hover {
+    color: var(--secondary-color);
+}
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+.copyright p {
+    color: var(--primary-color);
 }

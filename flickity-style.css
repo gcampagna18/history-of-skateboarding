@@ -43,3 +43,7 @@
 .flickity-page-dots {
     fill: var(--primary-color);
 }
+
+.flickity-button-icon {
+    display: none;
+  }
