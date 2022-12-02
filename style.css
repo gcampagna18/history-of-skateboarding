@@ -68,29 +68,41 @@ p {
     padding-bottom: 15px;
     color: var(--secondary-color);
 }
+
 .hamburger-menu {
     background-color: rgba(0, 0, 0, 0.75);
-    width: 75px;
-    height: 75px;
+    width: 70px;
+    height: 70px;
     position: fixed;
-    right: 60px;
-    top: 50px;
+    right: 80px;
+    top: 30px;
+    z-index: 100;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
 }
-.hamburger-menu i {
+.hamburger {
     width: 40px;
-    color: var(--primary-color);
-    font-size: 2.5em;
+    cursor: pointer;
+    appearance: none;
+    background: none;
+    outline: none;
+    border: none;
+    /*position: fixed;
+    right: 60px;
+    top: 50px;*/
 }
-.hamburger-menu i:hover {
-    font-size: 3em;
-
+.hamburger .bar {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: var(--primary-color);
+    margin: 10px 0;
+    height: 3px;
+    transition: 0.4s;
 }
-
 
 /*About*/
 .about {
