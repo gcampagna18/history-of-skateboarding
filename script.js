@@ -1,3 +1,13 @@
+//Hamburger Animations
+const menu_btn = document.querySelector(".hamburger");
+const hamburger_menu = document.querySelector(".nav");
+
+menu_btn.addEventListener("click", function () {
+  menu_btn.classList.toggle("is-active");
+  hamburger_menu.classList.toggle("is-active");
+});
+
+//Flickity Animations
 var elem = document.querySelector('.main-carousel');
 var flkty = new Flickity( elem, {
   // options
