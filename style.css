@@ -149,11 +149,13 @@ p {
 .nav a:hover {
   color: var(--secondary-color);
 }
+/*Top Bar*/
 .hamburger.is-active:before {
-  transform: rotate(-45deg) translate(-10px, 9.5px);
+  transform: rotate(-45deg) translate(-10px, 10px);
 }
+/*Bottom Bar*/
 .hamburger.is-active:after {
-  transform: rotate(45deg) translate(-10px, -9.5px);
+  transform: rotate(45deg) translate(-11px, -10px);
 }
 .hamburger.is-active .bar {
   opacity: 0;
