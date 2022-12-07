@@ -105,6 +105,7 @@ p {
   background-color: var(--primary-color);
   margin: 10px 0px;
   transition: 0.4s;
+  cursor: pointer; 
 }
 .logo {
     width: 120px;
@@ -148,6 +149,7 @@ p {
   }
 .nav a:hover {
   color: var(--secondary-color);
+  cursor: pointer;
 }
 /*Top Bar*/
 .hamburger.is-active:before {
