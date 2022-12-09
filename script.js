@@ -1,11 +1,14 @@
 //Hamburger Animations
-const menu_btn = document.querySelector(".hamburger");
+const menu_btn = document.querySelector(".hamburger-menu");
+const menu_btn_ham = document.querySelector(".hamburger");
 const hamburger_menu = document.querySelector(".nav");
 
 menu_btn.addEventListener("click", function () {
-  menu_btn.classList.toggle("is-active");
+  menu_btn_ham.classList.toggle("is-active");
   hamburger_menu.classList.toggle("is-active");
 });
+
+
 
 //Flickity Animations
 var elem = document.querySelector('.main-carousel');

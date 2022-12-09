@@ -82,6 +82,8 @@ p {
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    cursor: pointer;
+
 }
 .hamburger {
   position: fixed;
@@ -89,7 +91,7 @@ p {
   top: 65px;*/
   display: block;
   width: 50px;
-  cursor: pointer;
+  cursor: pointer; 
   
   appearance: none;
   background: none;
@@ -105,7 +107,6 @@ p {
   background-color: var(--primary-color);
   margin: 10px 0px;
   transition: 0.4s;
-  cursor: pointer; 
 }
 .logo {
     width: 120px;
@@ -437,16 +438,17 @@ p {
 .company-name {
     color: var(--primary-color);
     position: absolute;
-    top: 45%;
+    top: 40%;
     font-size: 30px;
     transition: translate (-50%, -50%);
+    cursor: pointer;
   
 }
 
 .company-name a {
     /*text-decoration: none;*/
     color: var(--primary-color);
-    font-family: Oswald, sans-serif;   
+    font-family: Oswald, sans-serif;
 }
 
 .company-name a:hover {
