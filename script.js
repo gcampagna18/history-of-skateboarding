@@ -2,12 +2,18 @@
 const menu_btn = document.querySelector(".hamburger-menu");
 const menu_btn_ham = document.querySelector(".hamburger");
 const hamburger_menu = document.querySelector(".nav");
+const anchors = document.querySelectorAll('a');
 
-menu_btn.addEventListener("click", function () {
+function openMenu(){
   menu_btn_ham.classList.toggle("is-active");
   hamburger_menu.classList.toggle("is-active");
-});
+}
 
+menu_btn.addEventListener("click", openMenu);
+
+anchors.forEach((e) => {
+  e.addEventListener('click', openMenu)
+});
 
 
 //Flickity Animations
