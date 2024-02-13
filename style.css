@@ -384,9 +384,9 @@ p {
 .profile-card {
     display: flex;
     background-color: var(--accent-2);
-    width: 725px;
+    width: 697px;
     border-radius: 26px;
-    margin: 20px;
+    margin: 0 15px;
 }
 .profile-card img {
     border-radius: 26px 0 0 26px;
@@ -394,6 +394,7 @@ p {
 .profile-text {
     width: 365px;
     padding-left: 25px;
+    padding-right: 25px;
     padding-top: 52px;
 }
 .profile-text h3 {
@@ -402,6 +403,7 @@ p {
 }
 .profile-text p {
     color: var(--primary-color);
+    font-size: 15px;
 }    
 
 /*Popular Companies*/
