@@ -32,7 +32,7 @@ p {
 
 /* NEW NAVIGATION 2024 */
 .navigation {
-    background: #212121;
+    background: var(--accent-2);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -61,7 +61,7 @@ p {
   }
   li a:hover {
     text-decoration: underline;
-    color: var(--accent-2);
+    color: var(--secondary-color);
 }
 
 
@@ -513,7 +513,7 @@ p {
 
 /*Footer*/
 footer {
-    background-color: var(--accent-2);
+    background-color: var(--secondary-color);
 }
 .footer-nav {
     display: flex;
@@ -532,7 +532,7 @@ footer {
     font-size: 20px;
 }
 .footer-nav a:hover {
-    color: var(--secondary-color);
+    color: var(--accent-2);
 }
 .socials {
     display: flex;
@@ -547,7 +547,7 @@ footer {
     color: var(--primary-color);
 }
 .socials i:hover {
-    color: var(--secondary-color);
+    color: var(--accent-2);
 }
 .copyright {
     display: flex;
