@@ -1,19 +1,19 @@
 //Hamburger Animations
-const menu_btn = document.querySelector(".hamburger-menu");
-const menu_btn_ham = document.querySelector(".hamburger");
-const hamburger_menu = document.querySelector(".nav");
-const anchors = document.querySelectorAll('a');
+// const menu_btn = document.querySelector(".hamburger-menu");
+// const menu_btn_ham = document.querySelector(".hamburger");
+// const hamburger_menu = document.querySelector(".nav");
+// const anchors = document.querySelectorAll('a');
 
-function openMenu(){
-  menu_btn_ham.classList.toggle("is-active");
-  hamburger_menu.classList.toggle("is-active");
-}
+// function openMenu(){
+//   menu_btn_ham.classList.toggle("is-active");
+//   hamburger_menu.classList.toggle("is-active");
+// }
 
-menu_btn.addEventListener("click", openMenu);
+// menu_btn.addEventListener("click", openMenu);
 
-anchors.forEach((e) => {
-  e.addEventListener('click', openMenu)
-});
+// anchors.forEach((e) => {
+//   e.addEventListener('click', openMenu)
+// });
 
 
 //Flickity Animations
