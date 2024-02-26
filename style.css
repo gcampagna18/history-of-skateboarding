@@ -39,6 +39,11 @@ p {
     height: 90px;
     padding: 0 80px;
   }
+
+  .website-logo {
+    height: 100%;
+    width: 230px;
+  }
   
   .nav-logo {
     color: var(--primary-color);
@@ -549,13 +554,20 @@ footer {
 .socials i:hover {
     color: var(--accent-2);
 }
+
+.footer-logo {
+    height: 100%;
+    width: 170px;
+    margin: 0 auto;
+    padding-top: 1em
+}
+
 .copyright {
     display: flex;
     justify-content: center;
     margin: 0 auto;
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding: .7em 0 1em 0;
 }
 .copyright p {
     color: var(--primary-color);
